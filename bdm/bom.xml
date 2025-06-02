@@ -4,7 +4,7 @@
         <businessObject qualifiedName="com.company.model.solicitudVacaciones">
             <fields>
                 <field type="LONG" length="255" name="solicitanteId" nullable="false" collection="false"/>
-                <field type="LOCALDATETIME" length="255" name="fechaInicio" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaInicio" nullable="false" collection="false"/>
                 <field type="INTEGER" length="255" name="numeroDias" nullable="false" collection="false"/>
                 <field type="BOOLEAN" length="255" name="estaAprobado" nullable="true" collection="false"/>
             </fields>
